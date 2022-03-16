@@ -1,13 +1,8 @@
-// import changeNumInputs from "./changeNumInputs";
-
 const forms = () => {
     const form = document.querySelectorAll('form'),
           inputs = document.querySelectorAll('input'),
           upload = document.querySelectorAll('[name="upload"]'),
           textarea = document.querySelectorAll('[name="message"]');
-
-
-    // changeNumInputs('input[name="user_phone"]');
 
     const message = {
         loading: 'Загрузка...',
