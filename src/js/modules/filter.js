@@ -25,8 +25,6 @@ const filter = () => {
         }
     };
 
-
-
     function setEvent(btn, nameMark) {
         const buttons = document.querySelector(btn),
               markers = document.querySelectorAll(nameMark);
@@ -40,14 +38,6 @@ const filter = () => {
         });
     }
 
-    setEvent('.lovers','.lovers');
-    setEvent('.all', '.all');
-    setEvent('.chef', '.chef');
-    setEvent('.girl','.girl');
-    setEvent('.guy', '.guy');
-    setEvent('.granddad');
-    setEvent('.grandmother');
-
     menu.addEventListener('click', (e) => {
         let target = e.target;
 
@@ -57,9 +47,14 @@ const filter = () => {
         }
     });
 
-
-
-
+    setEvent('.lovers','.lovers');
+    setEvent('.all', '.all');
+    setEvent('.chef', '.chef');
+    setEvent('.girl','.girl');
+    setEvent('.guy', '.guy');
+    setEvent('.granddad');
+    setEvent('.grandmother');
+    
 };
 
 export default filter;
